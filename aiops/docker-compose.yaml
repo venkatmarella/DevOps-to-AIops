@@ -1,0 +1,26 @@
+version: '3'
+services:
+  aiops:
+    build: .
+    ports:
+      - "5000:80"
+    environment:
+      - SLACK_BOT_TOKEN=${SLACK_BOT_TOKEN}
+      - JIRA_API_TOKEN=${JIRA_API_TOKEN}
+      - GITHUB_API_TOKEN=${GITHUB_API_TOKEN}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    secrets:
+      - slack_bot_token
+      - jira_api_token
+      - github_api_token
+      - openai_api_key
+
+secrets:
+  slack_bot_token:
+    file: ./secrets/slack_bot_token.txt
+  jira_api_token:
+    file: ./secrets/jira_api_token.txt
+  github_api_token:
+    file: ./secrets/github_api_token.txt
+  openai_api_key:
+    file: ./secrets/openai_api_key.txt
