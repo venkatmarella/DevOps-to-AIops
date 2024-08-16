@@ -16,20 +16,18 @@ This project creates a Slack bot that acts as a junior DevOps engineer, capable 
 - `requirements.txt` - Python dependencies.
 
 ## Installation
-
-1. Install dependencies:
    ```bash
+   Install dependencies:
    pip install -r requirements.txt
 
-   #Run the Slack bot:
+   Run the Slack bot:
    python src/slack_bot/app.py
-   #Deploy using Docker Compose:
+   Deploy using Docker Compose:
    docker-compose up --build
-   #Deploy using Helm:
+   Deploy using Helm:
    helm install aiops ./helm/aiops
-```
+   ```
 ## Testing
-Run the unit tests using:
-    ```bash
+    Run the unit tests using:
     python -m unittest discover tests
 
