@@ -27,7 +27,7 @@ This project creates a Slack bot that acts as a junior DevOps engineer, capable 
    docker-compose up --build
    #Deploy using Helm:
    helm install aiops ./helm/aiops
-
+```
 ## Testing
 Run the unit tests using:
     ```bash
