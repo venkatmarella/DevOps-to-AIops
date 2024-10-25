@@ -1,4 +1,4 @@
-# llm-devops-automation
+# devops-automation using GenAI integrations
 This complete project structure and code should provide a solid foundation for your "aiops" project, which implements SlackOps to perform tasks like a junior DevOps engineer.
 
 # AIOps SlackOps Project
@@ -31,3 +31,6 @@ This project creates a Slack bot that acts as a junior DevOps engineer, capable 
     Run the unit tests using:
     python -m unittest discover tests
 
+## AIOps Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/5de7df7a-c872-49a6-bdd4-c58165027721)
