@@ -33,4 +33,5 @@ This project creates a Slack bot that acts as a junior DevOps engineer, capable 
 
 ## AIOps Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/5de7df7a-c872-49a6-bdd4-c58165027721)
+![image](https://github.com/user-attachments/assets/6c822ae0-7b61-458a-ba5e-e016806f8bc5)
+
