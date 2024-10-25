@@ -1,4 +1,4 @@
-# devops-automation using GenAI integrations
+# DevOps-Automation using GenAI integrations
 This complete project structure and code should provide a solid foundation for your "aiops" project, which implements SlackOps to perform tasks like a junior DevOps engineer.
 
 # AIOps SlackOps Project
