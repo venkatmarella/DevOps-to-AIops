@@ -1,3 +1,9 @@
-## AIOps Architecture Diagram
+## Environment Variables
+### Please add the following in your system environment file.
+**SLACK_BOT_TOKEN**
 
-![image](https://github.com/user-attachments/assets/5de7df7a-c872-49a6-bdd4-c58165027721)
+**JIRA_API_TOKEN**
+
+**GITHUB_API_TOKEN**
+
+**OPENAI_API_KEY**
